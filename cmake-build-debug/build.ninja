@@ -91,6 +91,12 @@ build CMakeFiles/learning2.dir/exe3.cpp.obj: CXX_COMPILER__learning2_Debug F$:/C
   OBJECT_DIR = CMakeFiles\learning2.dir
   OBJECT_FILE_DIR = CMakeFiles\learning2.dir
 
+build CMakeFiles/learning2.dir/binarysearch.cpp.obj: CXX_COMPILER__learning2_Debug F$:/C++_Project/learning2/binarysearch.cpp || cmake_object_order_depends_target_learning2
+  DEP_FILE = CMakeFiles\learning2.dir\binarysearch.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\learning2.dir
+  OBJECT_FILE_DIR = CMakeFiles\learning2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target learning2
@@ -99,7 +105,7 @@ build CMakeFiles/learning2.dir/exe3.cpp.obj: CXX_COMPILER__learning2_Debug F$:/C
 #############################################
 # Link the executable learning2.exe
 
-build learning2.exe: CXX_EXECUTABLE_LINKER__learning2_Debug CMakeFiles/learning2.dir/main.cpp.obj CMakeFiles/learning2.dir/exe1094.cpp.obj CMakeFiles/learning2.dir/exe388.cpp.obj CMakeFiles/learning2.dir/exe76.cpp.obj CMakeFiles/learning2.dir/exe567.cpp.obj CMakeFiles/learning2.dir/exe438.cpp.obj CMakeFiles/learning2.dir/exe3.cpp.obj
+build learning2.exe: CXX_EXECUTABLE_LINKER__learning2_Debug CMakeFiles/learning2.dir/main.cpp.obj CMakeFiles/learning2.dir/exe1094.cpp.obj CMakeFiles/learning2.dir/exe388.cpp.obj CMakeFiles/learning2.dir/exe76.cpp.obj CMakeFiles/learning2.dir/exe567.cpp.obj CMakeFiles/learning2.dir/exe438.cpp.obj CMakeFiles/learning2.dir/exe3.cpp.obj CMakeFiles/learning2.dir/binarysearch.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\learning2.dir
@@ -307,6 +313,39 @@ build exe3.exe: CXX_EXECUTABLE_LINKER__exe3_Debug CMakeFiles/exe3.dir/exe3.cpp.o
   TARGET_IMPLIB = libexe3.dll.a
   TARGET_PDB = exe3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target binarysearch
+
+
+#############################################
+# Order-only phony target for binarysearch
+
+build cmake_object_order_depends_target_binarysearch: phony || CMakeFiles/binarysearch.dir
+
+build CMakeFiles/binarysearch.dir/binarysearch.cpp.obj: CXX_COMPILER__binarysearch_Debug F$:/C++_Project/learning2/binarysearch.cpp || cmake_object_order_depends_target_binarysearch
+  DEP_FILE = CMakeFiles\binarysearch.dir\binarysearch.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\binarysearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\binarysearch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binarysearch
+
+
+#############################################
+# Link the executable binarysearch.exe
+
+build binarysearch.exe: CXX_EXECUTABLE_LINKER__binarysearch_Debug CMakeFiles/binarysearch.dir/binarysearch.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\binarysearch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = binarysearch.exe
+  TARGET_IMPLIB = libbinarysearch.dll.a
+  TARGET_PDB = binarysearch.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -333,6 +372,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build binarysearch: phony binarysearch.exe
+
 build exe1094: phony exe1094.exe
 
 build exe3: phony exe3.exe
@@ -355,7 +396,7 @@ build main: phony main.exe
 #############################################
 # Folder: F:/C++_Project/learning2/cmake-build-debug
 
-build all: phony learning2.exe exe1094.exe main.exe exe76.exe exe567.exe exe438.exe exe3.exe
+build all: phony learning2.exe exe1094.exe main.exe exe76.exe exe567.exe exe438.exe exe3.exe binarysearch.exe
 
 # =============================================================================
 # Built-in targets

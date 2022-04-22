@@ -8,7 +8,6 @@ int lengthOfLongestSubstring(string s) {
     unordered_map<char, int> windows;
     int left = 0, right = 0;
     int maxlen = 0;
-    bool flag = false;
     while (right < s.size()) {
         char c = s[right];
         ++right;
