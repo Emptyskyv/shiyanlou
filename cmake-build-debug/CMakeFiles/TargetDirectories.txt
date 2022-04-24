@@ -6,5 +6,6 @@ F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/exe567.dir
 F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/exe438.dir
 F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/exe3.dir
 F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/binarysearch.dir
+F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/exe587.dir
 F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
