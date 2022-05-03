@@ -35,7 +35,7 @@ int main(void) {
     }
     sort(nums.begin(), nums.end());
     cout << endl;
-    cout << binsearch(nums, 96);
+    cout << binsearch(nums, 95);
 
     return 0;
 }
