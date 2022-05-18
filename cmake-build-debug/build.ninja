@@ -127,6 +127,18 @@ build CMakeFiles/learning2.dir/exe944.cpp.obj: CXX_COMPILER__learning2_Debug F$:
   OBJECT_DIR = CMakeFiles\learning2.dir
   OBJECT_FILE_DIR = CMakeFiles\learning2.dir
 
+build CMakeFiles/learning2.dir/exe0105.cpp.obj: CXX_COMPILER__learning2_Debug F$:/C++_Project/learning2/exe0105.cpp || cmake_object_order_depends_target_learning2
+  DEP_FILE = CMakeFiles\learning2.dir\exe0105.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\learning2.dir
+  OBJECT_FILE_DIR = CMakeFiles\learning2.dir
+
+build CMakeFiles/learning2.dir/exe503.cpp.obj: CXX_COMPILER__learning2_Debug F$:/C++_Project/learning2/exe503.cpp || cmake_object_order_depends_target_learning2
+  DEP_FILE = CMakeFiles\learning2.dir\exe503.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\learning2.dir
+  OBJECT_FILE_DIR = CMakeFiles\learning2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target learning2
@@ -135,7 +147,7 @@ build CMakeFiles/learning2.dir/exe944.cpp.obj: CXX_COMPILER__learning2_Debug F$:
 #############################################
 # Link the executable learning2.exe
 
-build learning2.exe: CXX_EXECUTABLE_LINKER__learning2_Debug CMakeFiles/learning2.dir/main.cpp.obj CMakeFiles/learning2.dir/exe1094.cpp.obj CMakeFiles/learning2.dir/exe388.cpp.obj CMakeFiles/learning2.dir/exe76.cpp.obj CMakeFiles/learning2.dir/exe567.cpp.obj CMakeFiles/learning2.dir/exe438.cpp.obj CMakeFiles/learning2.dir/exe3.cpp.obj CMakeFiles/learning2.dir/binarysearch.cpp.obj CMakeFiles/learning2.dir/exe587.cpp.obj CMakeFiles/learning2.dir/exe398.cpp.obj CMakeFiles/learning2.dir/exe937.cpp.obj CMakeFiles/learning2.dir/exe713.cpp.obj CMakeFiles/learning2.dir/exe944.cpp.obj
+build learning2.exe: CXX_EXECUTABLE_LINKER__learning2_Debug CMakeFiles/learning2.dir/main.cpp.obj CMakeFiles/learning2.dir/exe1094.cpp.obj CMakeFiles/learning2.dir/exe388.cpp.obj CMakeFiles/learning2.dir/exe76.cpp.obj CMakeFiles/learning2.dir/exe567.cpp.obj CMakeFiles/learning2.dir/exe438.cpp.obj CMakeFiles/learning2.dir/exe3.cpp.obj CMakeFiles/learning2.dir/binarysearch.cpp.obj CMakeFiles/learning2.dir/exe587.cpp.obj CMakeFiles/learning2.dir/exe398.cpp.obj CMakeFiles/learning2.dir/exe937.cpp.obj CMakeFiles/learning2.dir/exe713.cpp.obj CMakeFiles/learning2.dir/exe944.cpp.obj CMakeFiles/learning2.dir/exe0105.cpp.obj CMakeFiles/learning2.dir/exe503.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\learning2.dir
@@ -541,6 +553,72 @@ build exe944.exe: CXX_EXECUTABLE_LINKER__exe944_Debug CMakeFiles/exe944.dir/exe9
   TARGET_IMPLIB = libexe944.dll.a
   TARGET_PDB = exe944.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exe0105
+
+
+#############################################
+# Order-only phony target for exe0105
+
+build cmake_object_order_depends_target_exe0105: phony || CMakeFiles/exe0105.dir
+
+build CMakeFiles/exe0105.dir/exe0105.cpp.obj: CXX_COMPILER__exe0105_Debug F$:/C++_Project/learning2/exe0105.cpp || cmake_object_order_depends_target_exe0105
+  DEP_FILE = CMakeFiles\exe0105.dir\exe0105.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\exe0105.dir
+  OBJECT_FILE_DIR = CMakeFiles\exe0105.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exe0105
+
+
+#############################################
+# Link the executable exe0105.exe
+
+build exe0105.exe: CXX_EXECUTABLE_LINKER__exe0105_Debug CMakeFiles/exe0105.dir/exe0105.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exe0105.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exe0105.exe
+  TARGET_IMPLIB = libexe0105.dll.a
+  TARGET_PDB = exe0105.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exe503
+
+
+#############################################
+# Order-only phony target for exe503
+
+build cmake_object_order_depends_target_exe503: phony || CMakeFiles/exe503.dir
+
+build CMakeFiles/exe503.dir/exe503.cpp.obj: CXX_COMPILER__exe503_Debug F$:/C++_Project/learning2/exe503.cpp || cmake_object_order_depends_target_exe503
+  DEP_FILE = CMakeFiles\exe503.dir\exe503.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\exe503.dir
+  OBJECT_FILE_DIR = CMakeFiles\exe503.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exe503
+
+
+#############################################
+# Link the executable exe503.exe
+
+build exe503.exe: CXX_EXECUTABLE_LINKER__exe503_Debug CMakeFiles/exe503.dir/exe503.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exe503.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exe503.exe
+  TARGET_IMPLIB = libexe503.dll.a
+  TARGET_PDB = exe503.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -569,6 +647,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build binarysearch: phony binarysearch.exe
 
+build exe0105: phony exe0105.exe
+
 build exe1094: phony exe1094.exe
 
 build exe3: phony exe3.exe
@@ -576,6 +656,8 @@ build exe3: phony exe3.exe
 build exe398: phony exe398.exe
 
 build exe438: phony exe438.exe
+
+build exe503: phony exe503.exe
 
 build exe567: phony exe567.exe
 
@@ -601,7 +683,7 @@ build main: phony main.exe
 #############################################
 # Folder: F:/C++_Project/learning2/cmake-build-debug
 
-build all: phony learning2.exe exe1094.exe main.exe exe76.exe exe567.exe exe438.exe exe3.exe binarysearch.exe exe587.exe exe398.exe exe937.exe exe713.exe exe944.exe
+build all: phony learning2.exe exe1094.exe main.exe exe76.exe exe567.exe exe438.exe exe3.exe binarysearch.exe exe587.exe exe398.exe exe937.exe exe713.exe exe944.exe exe0105.exe exe503.exe
 
 # =============================================================================
 # Built-in targets
