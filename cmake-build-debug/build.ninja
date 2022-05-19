@@ -145,6 +145,12 @@ build CMakeFiles/learning2.dir/exe239.cpp.obj: CXX_COMPILER__learning2_Debug F$:
   OBJECT_DIR = CMakeFiles\learning2.dir
   OBJECT_FILE_DIR = CMakeFiles\learning2.dir
 
+build CMakeFiles/learning2.dir/listtest.cpp.obj: CXX_COMPILER__learning2_Debug F$:/C++_Project/learning2/listtest.cpp || cmake_object_order_depends_target_learning2
+  DEP_FILE = CMakeFiles\learning2.dir\listtest.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\learning2.dir
+  OBJECT_FILE_DIR = CMakeFiles\learning2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target learning2
@@ -153,7 +159,7 @@ build CMakeFiles/learning2.dir/exe239.cpp.obj: CXX_COMPILER__learning2_Debug F$:
 #############################################
 # Link the executable learning2.exe
 
-build learning2.exe: CXX_EXECUTABLE_LINKER__learning2_Debug CMakeFiles/learning2.dir/main.cpp.obj CMakeFiles/learning2.dir/exe1094.cpp.obj CMakeFiles/learning2.dir/exe388.cpp.obj CMakeFiles/learning2.dir/exe76.cpp.obj CMakeFiles/learning2.dir/exe567.cpp.obj CMakeFiles/learning2.dir/exe438.cpp.obj CMakeFiles/learning2.dir/exe3.cpp.obj CMakeFiles/learning2.dir/binarysearch.cpp.obj CMakeFiles/learning2.dir/exe587.cpp.obj CMakeFiles/learning2.dir/exe398.cpp.obj CMakeFiles/learning2.dir/exe937.cpp.obj CMakeFiles/learning2.dir/exe713.cpp.obj CMakeFiles/learning2.dir/exe944.cpp.obj CMakeFiles/learning2.dir/exe0105.cpp.obj CMakeFiles/learning2.dir/exe503.cpp.obj CMakeFiles/learning2.dir/exe239.cpp.obj
+build learning2.exe: CXX_EXECUTABLE_LINKER__learning2_Debug CMakeFiles/learning2.dir/main.cpp.obj CMakeFiles/learning2.dir/exe1094.cpp.obj CMakeFiles/learning2.dir/exe388.cpp.obj CMakeFiles/learning2.dir/exe76.cpp.obj CMakeFiles/learning2.dir/exe567.cpp.obj CMakeFiles/learning2.dir/exe438.cpp.obj CMakeFiles/learning2.dir/exe3.cpp.obj CMakeFiles/learning2.dir/binarysearch.cpp.obj CMakeFiles/learning2.dir/exe587.cpp.obj CMakeFiles/learning2.dir/exe398.cpp.obj CMakeFiles/learning2.dir/exe937.cpp.obj CMakeFiles/learning2.dir/exe713.cpp.obj CMakeFiles/learning2.dir/exe944.cpp.obj CMakeFiles/learning2.dir/exe0105.cpp.obj CMakeFiles/learning2.dir/exe503.cpp.obj CMakeFiles/learning2.dir/exe239.cpp.obj CMakeFiles/learning2.dir/listtest.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\learning2.dir
@@ -658,6 +664,39 @@ build exe239.exe: CXX_EXECUTABLE_LINKER__exe239_Debug CMakeFiles/exe239.dir/exe2
   TARGET_IMPLIB = libexe239.dll.a
   TARGET_PDB = exe239.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target listtest
+
+
+#############################################
+# Order-only phony target for listtest
+
+build cmake_object_order_depends_target_listtest: phony || CMakeFiles/listtest.dir
+
+build CMakeFiles/listtest.dir/listtest.cpp.obj: CXX_COMPILER__listtest_Debug F$:/C++_Project/learning2/listtest.cpp || cmake_object_order_depends_target_listtest
+  DEP_FILE = CMakeFiles\listtest.dir\listtest.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\listtest.dir
+  OBJECT_FILE_DIR = CMakeFiles\listtest.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target listtest
+
+
+#############################################
+# Link the executable listtest.exe
+
+build listtest.exe: CXX_EXECUTABLE_LINKER__listtest_Debug CMakeFiles/listtest.dir/listtest.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\listtest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = listtest.exe
+  TARGET_IMPLIB = liblisttest.dll.a
+  TARGET_PDB = listtest.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -714,6 +753,8 @@ build exe944: phony exe944.exe
 
 build learning2: phony learning2.exe
 
+build listtest: phony listtest.exe
+
 build main: phony main.exe
 
 # =============================================================================
@@ -724,7 +765,7 @@ build main: phony main.exe
 #############################################
 # Folder: F:/C++_Project/learning2/cmake-build-debug
 
-build all: phony learning2.exe exe1094.exe main.exe exe76.exe exe567.exe exe438.exe exe3.exe binarysearch.exe exe587.exe exe398.exe exe937.exe exe713.exe exe944.exe exe0105.exe exe503.exe exe239.exe
+build all: phony learning2.exe exe1094.exe main.exe exe76.exe exe567.exe exe438.exe exe3.exe binarysearch.exe exe587.exe exe398.exe exe937.exe exe713.exe exe944.exe exe0105.exe exe503.exe exe239.exe listtest.exe
 
 # =============================================================================
 # Built-in targets

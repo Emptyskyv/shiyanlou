@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learning2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "binarysearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binarysearch-Debug-af6219382aa0ee901874.json",
+					"name" : "binarysearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe0105::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe0105-Debug-6d24fad6626efea72b5f.json",
+					"name" : "exe0105",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe1094::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe1094-Debug-9d8aa6780b1c69905fd6.json",
+					"name" : "exe1094",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe239::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe239-Debug-b5b01bf535e99d5feaf9.json",
+					"name" : "exe239",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe3-Debug-b739d888f5e9ea852fdf.json",
+					"name" : "exe3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe398::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe398-Debug-36eaa232c1cf3edba3f9.json",
+					"name" : "exe398",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe438::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe438-Debug-7828ab2303d89d354e57.json",
+					"name" : "exe438",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe503::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe503-Debug-77e8d6de113e04b970eb.json",
+					"name" : "exe503",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe567::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe567-Debug-802a9b04ebb2039b03db.json",
+					"name" : "exe567",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe587::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe587-Debug-217807854eb1823da035.json",
+					"name" : "exe587",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe713::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe713-Debug-9afd8af289b39471673d.json",
+					"name" : "exe713",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe76::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe76-Debug-51869e35b0ab90f80645.json",
+					"name" : "exe76",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe937::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe937-Debug-47cabbb0f6d747283d92.json",
+					"name" : "exe937",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe944::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe944-Debug-c3415b0fa158226e1cc6.json",
+					"name" : "exe944",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learning2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning2-Debug-47c9da75a67ffcf7a29c.json",
+					"name" : "learning2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listtest-Debug-ac0953ce382fd1728667.json",
+					"name" : "listtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-6a20bf2a73dbaca6f8ee.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/C++_Project/learning2/cmake-build-debug",
+		"source" : "F:/C++_Project/learning2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
