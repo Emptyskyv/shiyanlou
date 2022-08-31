@@ -163,6 +163,24 @@ build CMakeFiles/learning2.dir/exe658.cpp.obj: CXX_COMPILER__learning2_Debug F$:
   OBJECT_DIR = CMakeFiles\learning2.dir
   OBJECT_FILE_DIR = CMakeFiles\learning2.dir
 
+build CMakeFiles/learning2.dir/zhousai.cpp.obj: CXX_COMPILER__learning2_Debug F$:/C++_Project/learning2/zhousai.cpp || cmake_object_order_depends_target_learning2
+  DEP_FILE = CMakeFiles\learning2.dir\zhousai.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\learning2.dir
+  OBJECT_FILE_DIR = CMakeFiles\learning2.dir
+
+build CMakeFiles/learning2.dir/codeforce.cpp.obj: CXX_COMPILER__learning2_Debug F$:/C++_Project/learning2/codeforce.cpp || cmake_object_order_depends_target_learning2
+  DEP_FILE = CMakeFiles\learning2.dir\codeforce.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\learning2.dir
+  OBJECT_FILE_DIR = CMakeFiles\learning2.dir
+
+build CMakeFiles/learning2.dir/exe1024.cpp.obj: CXX_COMPILER__learning2_Debug F$:/C++_Project/learning2/exe1024.cpp || cmake_object_order_depends_target_learning2
+  DEP_FILE = CMakeFiles\learning2.dir\exe1024.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\learning2.dir
+  OBJECT_FILE_DIR = CMakeFiles\learning2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target learning2
@@ -171,7 +189,7 @@ build CMakeFiles/learning2.dir/exe658.cpp.obj: CXX_COMPILER__learning2_Debug F$:
 #############################################
 # Link the executable learning2.exe
 
-build learning2.exe: CXX_EXECUTABLE_LINKER__learning2_Debug CMakeFiles/learning2.dir/main.cpp.obj CMakeFiles/learning2.dir/exe1094.cpp.obj CMakeFiles/learning2.dir/exe388.cpp.obj CMakeFiles/learning2.dir/exe76.cpp.obj CMakeFiles/learning2.dir/exe567.cpp.obj CMakeFiles/learning2.dir/exe438.cpp.obj CMakeFiles/learning2.dir/exe3.cpp.obj CMakeFiles/learning2.dir/binarysearch.cpp.obj CMakeFiles/learning2.dir/exe587.cpp.obj CMakeFiles/learning2.dir/exe398.cpp.obj CMakeFiles/learning2.dir/exe937.cpp.obj CMakeFiles/learning2.dir/exe713.cpp.obj CMakeFiles/learning2.dir/exe944.cpp.obj CMakeFiles/learning2.dir/exe0105.cpp.obj CMakeFiles/learning2.dir/exe503.cpp.obj CMakeFiles/learning2.dir/exe239.cpp.obj CMakeFiles/learning2.dir/listtest.cpp.obj CMakeFiles/learning2.dir/ospv.cpp.obj CMakeFiles/learning2.dir/exe658.cpp.obj
+build learning2.exe: CXX_EXECUTABLE_LINKER__learning2_Debug CMakeFiles/learning2.dir/main.cpp.obj CMakeFiles/learning2.dir/exe1094.cpp.obj CMakeFiles/learning2.dir/exe388.cpp.obj CMakeFiles/learning2.dir/exe76.cpp.obj CMakeFiles/learning2.dir/exe567.cpp.obj CMakeFiles/learning2.dir/exe438.cpp.obj CMakeFiles/learning2.dir/exe3.cpp.obj CMakeFiles/learning2.dir/binarysearch.cpp.obj CMakeFiles/learning2.dir/exe587.cpp.obj CMakeFiles/learning2.dir/exe398.cpp.obj CMakeFiles/learning2.dir/exe937.cpp.obj CMakeFiles/learning2.dir/exe713.cpp.obj CMakeFiles/learning2.dir/exe944.cpp.obj CMakeFiles/learning2.dir/exe0105.cpp.obj CMakeFiles/learning2.dir/exe503.cpp.obj CMakeFiles/learning2.dir/exe239.cpp.obj CMakeFiles/learning2.dir/listtest.cpp.obj CMakeFiles/learning2.dir/ospv.cpp.obj CMakeFiles/learning2.dir/exe658.cpp.obj CMakeFiles/learning2.dir/zhousai.cpp.obj CMakeFiles/learning2.dir/codeforce.cpp.obj CMakeFiles/learning2.dir/exe1024.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\learning2.dir
@@ -742,6 +760,105 @@ build exe658.exe: CXX_EXECUTABLE_LINKER__exe658_Debug CMakeFiles/exe658.dir/exe6
   TARGET_IMPLIB = libexe658.dll.a
   TARGET_PDB = exe658.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target zhousai
+
+
+#############################################
+# Order-only phony target for zhousai
+
+build cmake_object_order_depends_target_zhousai: phony || CMakeFiles/zhousai.dir
+
+build CMakeFiles/zhousai.dir/zhousai.cpp.obj: CXX_COMPILER__zhousai_Debug F$:/C++_Project/learning2/zhousai.cpp || cmake_object_order_depends_target_zhousai
+  DEP_FILE = CMakeFiles\zhousai.dir\zhousai.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\zhousai.dir
+  OBJECT_FILE_DIR = CMakeFiles\zhousai.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zhousai
+
+
+#############################################
+# Link the executable zhousai.exe
+
+build zhousai.exe: CXX_EXECUTABLE_LINKER__zhousai_Debug CMakeFiles/zhousai.dir/zhousai.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\zhousai.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = zhousai.exe
+  TARGET_IMPLIB = libzhousai.dll.a
+  TARGET_PDB = zhousai.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target codeforce
+
+
+#############################################
+# Order-only phony target for codeforce
+
+build cmake_object_order_depends_target_codeforce: phony || CMakeFiles/codeforce.dir
+
+build CMakeFiles/codeforce.dir/codeforce.cpp.obj: CXX_COMPILER__codeforce_Debug F$:/C++_Project/learning2/codeforce.cpp || cmake_object_order_depends_target_codeforce
+  DEP_FILE = CMakeFiles\codeforce.dir\codeforce.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\codeforce.dir
+  OBJECT_FILE_DIR = CMakeFiles\codeforce.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target codeforce
+
+
+#############################################
+# Link the executable codeforce.exe
+
+build codeforce.exe: CXX_EXECUTABLE_LINKER__codeforce_Debug CMakeFiles/codeforce.dir/codeforce.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\codeforce.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = codeforce.exe
+  TARGET_IMPLIB = libcodeforce.dll.a
+  TARGET_PDB = codeforce.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exe1024
+
+
+#############################################
+# Order-only phony target for exe1024
+
+build cmake_object_order_depends_target_exe1024: phony || CMakeFiles/exe1024.dir
+
+build CMakeFiles/exe1024.dir/exe1024.cpp.obj: CXX_COMPILER__exe1024_Debug F$:/C++_Project/learning2/exe1024.cpp || cmake_object_order_depends_target_exe1024
+  DEP_FILE = CMakeFiles\exe1024.dir\exe1024.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\exe1024.dir
+  OBJECT_FILE_DIR = CMakeFiles\exe1024.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exe1024
+
+
+#############################################
+# Link the executable exe1024.exe
+
+build exe1024.exe: CXX_EXECUTABLE_LINKER__exe1024_Debug CMakeFiles/exe1024.dir/exe1024.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exe1024.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exe1024.exe
+  TARGET_IMPLIB = libexe1024.dll.a
+  TARGET_PDB = exe1024.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -770,7 +887,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build binarysearch: phony binarysearch.exe
 
+build codeforce: phony codeforce.exe
+
 build exe0105: phony exe0105.exe
+
+build exe1024: phony exe1024.exe
 
 build exe1094: phony exe1094.exe
 
@@ -804,6 +925,8 @@ build listtest: phony listtest.exe
 
 build main: phony main.exe
 
+build zhousai: phony zhousai.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -812,7 +935,7 @@ build main: phony main.exe
 #############################################
 # Folder: F:/C++_Project/learning2/cmake-build-debug
 
-build all: phony learning2.exe exe1094.exe main.exe exe76.exe exe567.exe exe438.exe exe3.exe binarysearch.exe exe587.exe exe398.exe exe937.exe exe713.exe exe944.exe exe0105.exe exe503.exe exe239.exe listtest.exe exe658.exe
+build all: phony learning2.exe exe1094.exe main.exe exe76.exe exe567.exe exe438.exe exe3.exe binarysearch.exe exe587.exe exe398.exe exe937.exe exe713.exe exe944.exe exe0105.exe exe503.exe exe239.exe listtest.exe exe658.exe zhousai.exe codeforce.exe exe1024.exe
 
 # =============================================================================
 # Built-in targets
