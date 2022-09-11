@@ -19,5 +19,9 @@ F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/exe658.dir
 F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/zhousai.dir
 F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/codeforce.dir
 F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/exe1024.dir
+F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/exe1475.dir
+F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/warmup.dir
+F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/exe1592.dir
+F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/shuangzhousai.dir
 F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/C++_Project/learning2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

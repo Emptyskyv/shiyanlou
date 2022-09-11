@@ -3,7 +3,7 @@ project(learning2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(learning2 main.cpp exe1094.cpp exe388.cpp exe76.cpp exe567.cpp exe438.cpp exe3.cpp binarysearch.cpp exe587.cpp exe398.cpp exe937.cpp exe713.cpp exe944.cpp exe0105.cpp exe503.cpp exe239.cpp listtest.cpp ospv.cpp exe658.cpp zhousai.cpp codeforce.cpp exe1024.cpp)
+add_executable(learning2 main.cpp exe1094.cpp exe388.cpp exe76.cpp exe567.cpp exe438.cpp exe3.cpp binarysearch.cpp exe587.cpp exe398.cpp exe937.cpp exe713.cpp exe944.cpp exe0105.cpp exe503.cpp exe239.cpp listtest.cpp ospv.cpp exe658.cpp zhousai.cpp codeforce.cpp exe1024.cpp exe1475.cpp exe687.cpp warmup.cpp exe1592.cpp "shuangzhousai .cpp")
 
 add_executable(exe1094 exe1094.cpp)
 add_executable(main main.cpp)
@@ -25,3 +25,7 @@ add_executable(exe658 exe658.cpp)
 add_executable(zhousai zhousai.cpp)
 add_executable(codeforce codeforce.cpp)
 add_executable(exe1024 exe1024.cpp)
+add_executable(exe1475 exe1475.cpp)
+add_executable(warmup warmup.cpp)
+add_executable(exe1592 exe1592.cpp)
+add_executable(shuangzhousai  "shuangzhousai .cpp")
