@@ -1,0 +1,564 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learning2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LRU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LRU-Debug-f06f0ef893e9b49f1045.json",
+					"name" : "LRU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Tencenttest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tencenttest-Debug-d18c9d3f9326d4c9900f.json",
+					"name" : "Tencenttest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "binarysearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binarysearch-Debug-63395bc4aa788bc33eca.json",
+					"name" : "binarysearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "codeforce::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-codeforce-Debug-4987ded53ca6d35ca94f.json",
+					"name" : "codeforce",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe0105::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe0105-Debug-2331b823971a1f6ba3c3.json",
+					"name" : "exe0105",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe1-Debug-27488ae2dd07004c3022.json",
+					"name" : "exe1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe1024::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe1024-Debug-c47f31912d64c55a9d62.json",
+					"name" : "exe1024",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe1094::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe1094-Debug-e5983ce9c316b6183db1.json",
+					"name" : "exe1094",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe143::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe143-Debug-8cc64937f7f02c4f6fd8.json",
+					"name" : "exe143",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe1475::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe1475-Debug-3d4f292e37e12e86bb1a.json",
+					"name" : "exe1475",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe15::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe15-Debug-e9c3bb31a00af62baafb.json",
+					"name" : "exe15",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe151::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe151-Debug-f0c3a492228b63e773c4.json",
+					"name" : "exe151",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe1592::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe1592-Debug-11f09d5e45cac275d58c.json",
+					"name" : "exe1592",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe160::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe160-Debug-51c9e555d661c5b8454a.json",
+					"name" : "exe160",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe1652::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe1652-Debug-5ace9850d7e3a3a072e9.json",
+					"name" : "exe1652",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe1700::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe1700-Debug-438bba1bbbc7b684e525.json",
+					"name" : "exe1700",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe17_19::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe17_19-Debug-a9a054614546e1d18846.json",
+					"name" : "exe17_19",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe209::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe209-Debug-5005160945fe231a2c90.json",
+					"name" : "exe209",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe23::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe23-Debug-5b6bb79c094df3211217.json",
+					"name" : "exe23",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe239::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe239-Debug-c96bdf34f54553fed9eb.json",
+					"name" : "exe239",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe3-Debug-3520fec65681c06631ee.json",
+					"name" : "exe3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe31::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe31-Debug-d0ea58148e30cfc07abe.json",
+					"name" : "exe31",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe398::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe398-Debug-d836ab9e92e53a71f260.json",
+					"name" : "exe398",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe41::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe41-Debug-9fb0e6c5dbb8e6fca0d3.json",
+					"name" : "exe41",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe438::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe438-Debug-8e0eb64f08285f4178e1.json",
+					"name" : "exe438",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe452::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe452-Debug-7735ce4e9d5e7e67ed85.json",
+					"name" : "exe452",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe503::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe503-Debug-0e6b9aea780c3e2c6c38.json",
+					"name" : "exe503",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe54::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe54-Debug-1a30487c53e59b4dd1d2.json",
+					"name" : "exe54",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe560::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe560-Debug-5d36adfadbfee4c1938c.json",
+					"name" : "exe560",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe567::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe567-Debug-580462f4192fd0f1840d.json",
+					"name" : "exe567",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe587::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe587-Debug-58effcd7a259b1dedb06.json",
+					"name" : "exe587",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe658::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe658-Debug-97b77046a5c7ad403fc4.json",
+					"name" : "exe658",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe670::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe670-Debug-606d33bc3848199fb0bf.json",
+					"name" : "exe670",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe698::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe698-Debug-b9a28f4681dd69ccaf1f.json",
+					"name" : "exe698",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe713::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe713-Debug-0b4870c4d6fc10098c99.json",
+					"name" : "exe713",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe76::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe76-Debug-f03fa03b65853c32bcef.json",
+					"name" : "exe76",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe78::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe78-Debug-213a2cad1bd570aa3cdd.json",
+					"name" : "exe78",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe801::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe801-Debug-7cb32ce9c0bd4923b48c.json",
+					"name" : "exe801",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe85::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe85-Debug-b6b6ef74ff3d811f9c82.json",
+					"name" : "exe85",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe856::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe856-Debug-15a8a46eae274d01985a.json",
+					"name" : "exe856",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe86::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe86-Debug-e00ee5cf1daa0624cbef.json",
+					"name" : "exe86",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe870::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe870-Debug-ed15f9fb5218b1e17026.json",
+					"name" : "exe870",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe886::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe886-Debug-8e17f0fc334b6ad579c4.json",
+					"name" : "exe886",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe915::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe915-Debug-9df70308931351d6d689.json",
+					"name" : "exe915",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe937::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe937-Debug-a8fd0bf54ba15065225c.json",
+					"name" : "exe937",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe940::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe940-Debug-debfe2c7a191a27a4045.json",
+					"name" : "exe940",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe944::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe944-Debug-bda2fda339707f3211ff.json",
+					"name" : "exe944",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "heapsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-heapsort-Debug-67f15a6f1687c68c11b5.json",
+					"name" : "heapsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learning2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning2-Debug-c001ffdd95c768be73b1.json",
+					"name" : "learning2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listtest-Debug-8f0ecc6c51bfb2ee3d79.json",
+					"name" : "listtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-b3c8b775a63ab33614d2.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multithread::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multithread-Debug-bc37bdc3a7fef16b5789.json",
+					"name" : "multithread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shared_ptrtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shared_ptrtest-Debug-b0e51e3ec32ba7a725c9.json",
+					"name" : "shared_ptrtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shuangzhousai::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shuangzhousai-Debug-bec5a6b9d70f0eb19bb9.json",
+					"name" : "shuangzhousai",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test131::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test131-Debug-4672ff8f1feb70a03cb2.json",
+					"name" : "test131",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warmup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warmup-Debug-fdd4e2994f61260f5b81.json",
+					"name" : "warmup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhousai::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhousai-Debug-fab5541fc69d8978ece3.json",
+					"name" : "zhousai",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/C++_Project/learning2/cmake-build-debug",
+		"source" : "F:/C++_Project/learning2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

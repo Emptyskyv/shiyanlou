@@ -45,10 +45,53 @@ string minWindow(string s, string t) {
     return ans;
 }
 
+class Solution {
+public:
+    string minWindow(string s, string t) {
+        unordered_map<int, int> needs;
+        unordered_map<int, int> windows;
+        int flag = 0;
+        for (auto ch : t) {
+            needs[ch]++;
+        }
+        int left = 0;
+        int right = 0;
+        int length = INT_MAX;
+        int begin = 0;
+        while (right < s.size()) {
+            auto ch = s[right++];
+            if (needs.count(ch)) {
+                windows[ch]++;
+                if (windows[ch] == needs[ch]) {
+                    flag++;
+                }
+            }
+            while (flag == needs.size()) {
+                auto ch2 = s[left];
+                if (right - left < length) {
+                    length = right - left;
+                    begin = left;
+                }
+                left++;
+                if (needs.count(ch2)) {
+                    if (windows[ch2] == needs[ch2]) {
+                        flag--;
+                    }
+                    windows[ch2]--;
+                }
+            }
+        }
+        string temp = s.substr(begin, length);
+        return length == INT_MAX ? "" : temp;
+    }
+};
+
 int main() {
-    string s = "bba";
-    string t = "ab";
-    cout << minWindow(s, t);
+    string s = "ADOBECODEBANC";
+    string t = "ABC";
+    Solution ss;
+    ss.minWindow(s, t);
+    //cout << minWindow(s, t);
 
     return 0;
 }

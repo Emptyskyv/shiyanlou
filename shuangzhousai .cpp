@@ -30,7 +30,29 @@ public:
     }
 };
 
+class A {
+private:
+    int x;
+public:
+    A() {
+        x = 1;
+    }
+    A(int _x) : x(_x) {}
+    A(A& a) {
+        x = a.x;
+    }
+    A operator=(const A& a) {
+        x = a.x;
+        return *this;
+    }
+    ~A() {}
+};
+
 int main() {
+    A a(1);
+    A b(2);
+    A c(3);
+    a = b = c;
     vector<vector<int>> intervals = {
             {5, 10},
             {6, 8},

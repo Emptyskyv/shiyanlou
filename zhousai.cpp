@@ -5,58 +5,46 @@
 #include <queue>
 #include <numeric>
 #include <valarray>
+#include <unordered_map>
 
 using namespace std;
 
-class Solution {
-public:
-    double mean(vector<int>& temp) {
-        double sum = accumulate(temp.begin(), temp.end(), 0);
-        return sum / temp.size();
-    }
 
-    double variance(vector<int>& temp) {
-        double ans = 0;
-        double m = mean(temp);
-        for (float x : temp) {
-            ans += pow(x - m, 2);
-        }
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
 
-        return ans / temp.size();
-    }
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
 
-    vector<double> honeyQuotes(vector<vector<int>>& handle) {
-        vector<int> temp;
-        vector<double> ans;
-        for (auto hand : handle) {
-            if (hand[0] == 1) {
-                temp.emplace_back(hand[1]);
-            } else if (hand[0] == 2) {
-                temp.erase(std::find(temp.begin(), temp.end(), hand[1]));
-            } else if (hand[0] == 3) {
-                if (temp.empty()) {
-                    ans.emplace_back(-1);
-                } else {
-                    ans.emplace_back(mean(temp));
-                }
-            } else {
-                if (temp.empty()) {
-                    ans.emplace_back(-1);
-                } else {
-                    ans.emplace_back(variance((temp)));
-                }
-            }
-        }
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 
-        return ans;
-    }
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+class Solution {
+public:
+    TreeNode* expandBinaryTree(TreeNode* root) {
+        if (root == nullptr) {
+            return nullptr;
+        }
+        if (root->left) {
+            TreeNode* temp = root->left;
+            root->left = new TreeNode(-1, temp, nullptr);
+            expandBinaryTree(temp);
+        }
+        if (root->right) {
+            TreeNode* temp = root->right;
+            root->right = new TreeNode(-1, nullptr, temp);
+            expandBinaryTree(temp);
+        }
+
+        return root;
+    }
+};
 int main() {
-    string s = "leet**cod*e";
-    // cout << removeStars(s);
-    vector<vector<int>> handle = {{1,76}, {1,89}, {4},};
-    Solution ss;
-    ss.honeyQuotes(handle);
+    string s = "0200";
+    int temp = stoi(s);
+    cout << temp;
     return 0;
 }

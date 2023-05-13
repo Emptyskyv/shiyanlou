@@ -1,0 +1,241 @@
+class Solution {
+public:
+    /**
+     * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+     *
+     *
+     * @param str string字符串
+     * @return string字符串
+     */
+    string compress(string str) {
+        stack<string> strstack;
+        stack<string> numstack;
+        string tempstr = "";
+        string numstr = "";
+        for (auto ch : str) {
+            if (ch == '[') {
+                strstack.push(tempstr);
+                tempstr = "";
+            } else if (ch == '|') {
+                numstack.push(numstr);
+                numstr = "";
+            } else if (isdigit(ch) != 0) {
+                numstr += ch;
+            } else if (isalpha(ch) != 0) {
+                tempstr += ch;
+            } else {
+                int num = stoi(numstack.top());
+                numstack.pop();
+                string t = "";
+                while (num-- > 0) {
+                    t += tempstr;
+                }
+                tempstr = t;
+                t = strstack.top();
+                strstack.pop();
+                t += tempstr;
+                tempstr = t;
+            }
+        }
+
+        return tempstr;
+    }
+};
+
+
+class Solution {
+public:
+    /**
+     * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+     *
+     *
+     * @param heights int整型vector
+     * @return int整型vector
+     */
+    vector<int> findBuilding(vector<int>& heights) {
+        stack<int> front;
+        vector<int> count(heights.size());
+        for (int i = heights.size() - 1; i >= 0; i --) {
+            count[i] = front.size() + 1;
+            while (!front.empty() && front.top() <= heights[i]) {
+                front.pop();
+            }
+            front.push(heights[i]);
+        }
+        stack<int> back;
+        for (int i = 0; i < heights.size(); i ++) {
+            count[i] += back.size();
+            while (!back.empty() && back.top() <= heights[i]) {
+                back.pop();
+            }
+            back.push(heights[i]);
+        }
+
+        return count;
+    }
+};
+
+
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    int size;
+    cin >> size;
+    size = pow(2, size);
+    vector<int> nums(size);
+    for (int i = 0; i < size; i ++) {
+        int temp;
+        cin >> temp;
+        nums[i] = temp;
+    }
+    int msize;
+    cin >> msize;
+    vector<int> mnum(msize);
+    for (int i = 0; i < msize; i ++) {
+        int temp;
+        cin >> temp;
+        mnum[i] = temp;
+    }
+    // 程序处
+    for (auto m : mnum) {
+        int begin = 0;
+        int length = pow(2, m);
+        while (begin < nums.size()) {
+            reverse(nums.begin() + begin, nums.begin() + begin + length);
+            begin += length;
+        }
+        int ans = 0;
+        for (int i = 0; i < nums.size(); i ++) {
+            for (int j = i + 1; j < nums.size(); j ++) {
+                if (nums[j] < nums[i]) {
+                    ans++;
+                }
+            }
+        }
+        cout << ans << endl;
+    }
+
+    return 0;
+}
+
+
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    int size;
+    cin >> size;
+    vector<int> work(size);
+    for (int i = 0; i < size; i ++) {
+        int t;
+        cin >> t;
+        work[i] = t;
+    }
+    vector<int> exe(size);
+    for (int i = 0; i < size; i ++) {
+        int t;
+        cin >> t;
+        exe[i] = t;
+    }
+
+    // 执行程序
+    vector<vector<int>> dp(size + 1, vector<int>(3));
+    for (int i = 1; i <= size; i ++) {
+        // work
+        if (dp[i - 1][0]) {
+            if (exe[i-1]) {
+                dp[i][1] = 1;
+                dp[i][0] = 0;
+                dp[i][2] = dp[i - 1][2];
+            } else {
+                dp[i][2] = dp[i - 1][2] + 1;
+                dp[i][0] = dp[i][1] = 0;
+            }
+        // exe
+        } else if (dp[i - 1][1]) {
+            if (work[i - 1]) {
+                dp[i][0] = 1;
+                dp[i][1] = 0;
+                dp[i][2] = dp[i - 1][2];
+            } else {
+                dp[i][2] = dp[i - 1][2] + 1;
+                dp[i][0] = dp[i][1] = 0;
+            }
+        } else {
+            if (work[i]) {
+                dp[i][0] = 1;
+                dp[i][1] = 0;
+                dp[i][2] = dp[i - 1][2];
+            } else if (exe[i]) {
+                dp[i][1] = 1;
+                dp[i][0] = 0;
+                dp[i][2] = dp[i - 1][2];
+            } else {
+                dp[i][2] = dp[i - 1][2] + 1;
+                dp[i][0] = dp[i][1] = 0;
+            }
+        }
+    }
+
+    cout << dp[size][2] << endl;
+
+    return 0;
+}
+
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    int n;
+    long long L;
+    cin >> n >> L;
+    vector<vector<int>> light(n, vector<int>());
+    for (int i = 0; i < n; i ++) {
+        int x, y;
+        cin >> x >> y;
+        vector<int> temp = {x, y};
+        light[i] = temp;
+    }
+
+    // 程序开始
+    sort(light.begin(), light.end(), [](auto& x, auto& y) {
+        return x[0] < y[0] || x[0] == y[0] && x[1] > y[1];
+    });
+    long long left = 0;
+    long long right = 0;
+    long long ans = 1;
+    for (auto l : light) {
+        if (right >= L) {
+            cout << ans << endl;
+            break;
+        }
+        if (l[0] <= left) {
+            right = max(right, (long long)l[1]);
+        } else {
+            ans++;
+            left = right;
+            if (l[0] <= left) {
+                right = max(right, (long long)l[1]);
+            } else {
+                break;
+            }
+        }
+    }
+    if (right < L) {
+        cout << -1 << endl;
+    }
+    return 0;
+}
